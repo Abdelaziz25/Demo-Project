@@ -1,9 +1,10 @@
-import AppBar from "./components/Bars/AppBar";
+import FirstPage from './Pages/FirstPage';
+
 
 function App()
 {
   return   <div>
-        <AppBar />
+        <FirstPage />
   </div>
 }
 
