@@ -1,0 +1,45 @@
+.app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #ffff;
+  }
+  
+  .app-bar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .app-bar-left img {
+    margin-left: 80px;
+    margin-top: 38px;
+    width: 150px;
+    height: 33px;
+  }
+  
+  .app-bar-center {
+    flex: 1; /* Takes the remaining space in the center */
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .app-bar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 100px; 
+  }
+  
+  .app-bar-right .icon {
+    margin-right: 10px;
+  }
+  
+  .login-text {
+    margin-right: 10px;
+  }
+  
+  .app-bar-right button {
+    margin-top: 38px;
+  }
+  
