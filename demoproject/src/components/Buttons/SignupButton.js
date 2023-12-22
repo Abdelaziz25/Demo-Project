@@ -4,7 +4,7 @@ import './Button.css';
 const SignupButton = () => {
   return (
     <button className="signup-button">
-      Signup
+      Sign up
     </button>
   );
 };

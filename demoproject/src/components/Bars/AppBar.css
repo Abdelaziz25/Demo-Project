@@ -17,26 +17,42 @@
     width: 150px;
     height: 33px;
   }
-  
   .app-bar-center {
-    flex: 1; /* Takes the remaining space in the center */
     display: flex;
-    justify-content: center;
+    align-items: center;
+    
   }
   
+  .shopping-cart {
+    display: flex;
+    align-items: center;
+    margin: 0 20px; /* Adjust the margin as needed */
+    color: #28a19c;
+    margin-top: 38px;
+
+  }
+  
+  .shopping-cart .icon {
+    margin-right: 60px;
+  }
+  
+  .login-text {
+    color: #28a19c;
+    font-size: 25px;
+  }
   
   .app-bar-right {
     display: flex;
     align-items: center;
-    margin-right: 100px; 
+    margin-right: 100px;
   }
   
   .app-bar-right .icon {
-    margin-right: 10px;
+    margin-right: 0px;
   }
   
   .login-text {
-    margin-right: 10px;
+    margin-right: 20px;
   }
   
   .app-bar-right button {
