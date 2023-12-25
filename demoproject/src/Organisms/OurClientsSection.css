@@ -1,0 +1,75 @@
+/* OurClientsSection.css */
+
+.our-clients-section {
+    position: relative;
+    top: 3486px;
+    left: 0;
+    height: 227px;
+    /* Add any other styles as needed */
+  }
+  
+  .shared-text-styles {
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.8666666150093079px;
+    text-align: left;
+  }
+  
+  .section-title {
+    height: 38px;
+    top: 40px;
+    left: 590px;
+    color: #FFBA00;
+    font-size: 32px;
+  }
+  
+  .additional-text {
+   
+    height: 33px;
+    top: 45px;
+    left: 1181px;
+    color: #28A19C;
+    font-size: 26px;
+  }
+  
+  .image1 {
+    position: absolute;
+    width: 58.41px;
+    height: 69px;
+    top: 118px;
+    left: 80px;
+  }
+  
+  .image2 {
+    position: absolute;
+    width: 85.63px;
+    height: 55.69px;
+    top: 125px;
+    left: 352px;
+  }
+  
+  .image3 {
+    position: absolute;
+    width: 98.86px;
+    height: 38.77px;
+    top: 133px;
+    left: 652px;
+  }
+  
+  .image4 {
+    position: absolute;
+    width: 53.92px;
+    height: 53.15px;
+    top: 126px;
+    left: 964px;
+  }
+  
+  .image5 {
+    position: absolute;
+    width: 53.92px;
+    height: 53.15px;
+    top: 126px;
+    left: 1232px;
+  }
