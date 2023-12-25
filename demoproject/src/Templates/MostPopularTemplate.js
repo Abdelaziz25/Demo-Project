@@ -1,6 +1,6 @@
 import MostPopularSection from '../Organisms/MostPopularSection';
 
-const FooterTemplate = () => {
+const MostPopularTemplate = () => {
     return (
       <div>
          <MostPopularSection/>
@@ -8,4 +8,4 @@ const FooterTemplate = () => {
     );
   }
   
-  export default FooterTemplate;
+  export default MostPopularTemplate;

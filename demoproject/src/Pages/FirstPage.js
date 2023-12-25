@@ -4,14 +4,16 @@ import ThirdTemplate from '../Templates/ThirdTemplate';
 import OurClientsTemplate from '../Templates/OurClientsTemplate';
 import FooterTemplate from '../Templates/FooterTemplate';
 import './FirstPage.css';
-import MostPopularSection from '../Organisms/MostPopularSection';
+import MostPopularTemplate from '../Templates/MostPopularTemplate';
+import MostPopularCertifacteTemplate from '../Templates/MostPopularCertifacteTemplate';
 const FirstPage = () => {
     return (
       <div >
         <TopTemplate/>
         <ThirdTemplate/>
-        <MostPopularSection/>
+        <MostPopularTemplate/>
         <OurClientsTemplate/>
+        <MostPopularCertifacteTemplate/>
         <FooterTemplate/>
       </div>
     );

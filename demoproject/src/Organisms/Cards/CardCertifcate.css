@@ -1,0 +1,50 @@
+/* CardCertificate.css */
+
+.white2-card {
+    width: 272px;
+    height: 400px;
+    background-color: #FFFFFF;
+    position: absolute;
+    border-radius: 10px;
+  }
+  
+  .upper-part {
+    width: 272px;
+    height: 251px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .centered-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .lower-part {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23.75px;
+    letter-spacing: -0.46px;
+    color: #000000;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 12px;
+  }
+  
+  .google-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.48px;
+    color: #343434;
+    position: absolute;
+    top: 370px;
+    left: 12px;
+  }
+  
