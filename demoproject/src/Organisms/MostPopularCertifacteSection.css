@@ -1,7 +1,7 @@
 .most-popular-certificate-section {
     height: 1000px;
     position: relative;
-    top:2490px ;
+    top:240px ;
   }
 
   .certificate-text {
@@ -118,7 +118,7 @@
     margin-top: 20px;
   }
 
-  .view-more-btn {
+  .view2-more-btn {
     width: 314px;
     height: 52px;
     top: 879px;

@@ -54,7 +54,7 @@ const Card2 = ({ image, top, left }) => {
           <p className="moneydash-text">$ 40.99</p>
       </div>
       <div className="line"></div>
-      <button className="custom2-button">Enroll Now</button>
+      <button className="custom3-button">Enroll Now</button>
     </div>
   );
 };

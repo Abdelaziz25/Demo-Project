@@ -1,0 +1,269 @@
+/* LearningProcess.css */
+
+.learning-process-container {
+    height: 1700px;
+    position: relative;
+  }
+  
+  .learning-process-image {
+    position: absolute;
+    left: 1282px;
+    width: 56px;
+    height: 56px;
+    margin-top: 50px;
+  }
+
+  .learning-process-text {
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.07px;
+    color: #FFBA00;
+    width: 282px;
+    height: 42px;
+    top: 150px;
+    left: 542px;
+  }
+
+  .learn-additional-text {
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.43px;
+    color: #343434;
+    text-align: center;
+    width: 234px;
+    height: 42px;
+    top: 200px;
+    left: 568px;
+  }
+
+  .new-div {
+    height: 278px;
+    background-color: white; 
+    position: relative;
+    top: 282px;
+  }
+
+  .new-div-image {
+    width: 137px;
+    height: 137px;
+    top: 40px;
+    left: 300px;
+    position: absolute;
+  }
+  
+  .new-div-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    color: #343434;
+    text-align: center;
+    position: absolute;
+    top: 200px; /* Adjust as needed based on the image height */
+    left: 280px;
+  }
+
+  .new2-div-image {
+    width: 137px;
+    height: 137px;
+    top: 40px;
+    left: 596px;
+    position: absolute;
+  }
+  
+  .new2-div-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    color: #343434;
+    text-align: center;
+    position: absolute;
+    top: 200px; 
+    left: 580px;
+  }
+
+  .new3-div-image {
+    width: 137px;
+    height: 137px;
+    top: 40px;
+    left: 886px;
+    position: absolute;
+  }
+  
+  .new3-div-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    color: #343434;
+    text-align: center;
+    position: absolute;
+    top: 200px; /* Adjust as needed based on the image height */
+    left: 880px;
+  }
+
+  .top-categories {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.07px;
+    color: #FFBA00;
+    width: 247px;
+    height: 49px;
+    top: 700px;
+    left: 560px;
+    position: absolute;
+  }
+
+  .additional-text2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.43px;
+    color: #343434;
+    text-align: center;
+    width: 233px;
+    height: 51px;
+    top: 750px;
+    left: 569px;
+    position: absolute;
+  }
+
+  .arrow-back-icon {
+    width: 15px;
+    height: 25px;
+    color: #28A19C;
+    position: absolute;
+    top: 859px;
+    left: 80px;
+  }
+  .arrow-front-icon {
+    width: 15px;
+    height: 25px;
+    color: #28A19C;
+    position: absolute;
+    top: 859px;
+    left: 1271px;
+  }
+
+  .additional-text3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.73px;
+    color: #343434;
+    text-align: center;
+    width: 148px;
+    height: 24px;
+    top: 859px;
+    left: 182px;
+    position: absolute;
+    opacity: 0.75;
+  }
+
+  .additional-text5 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.73px;
+    color: #343434;
+    text-align: center;
+    width: 148px;
+    height: 24px;
+    top: 859px;
+    left: 653px;
+    position: absolute;
+    opacity: 0.75;
+  }
+
+  .additional-text6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.73px;
+    color: #343434;
+    text-align: center;
+    width: 148px;
+    height: 24px;
+    top: 859px;
+    left: 860px;
+    position: absolute;
+    opacity: 0.75;
+  }
+  .additional-text7 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.73px;
+    color: #343434;
+    text-align: center;
+    width: 148px;
+    height: 24px;
+    top: 859px;
+    left: 1054px;
+    position: absolute;
+    opacity: 0.75;
+  }
+
+  .additional-div {
+    width: 138px;
+    height: 60px;
+    top: 839px;
+    left: 425px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .additional-div-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.73px;
+    color: #28A19C;
+    text-align: center;
+  }
+
+  .custom2-button {
+    width: 314px;
+    height: 52px;
+    top: 1490px;
+    left: 526px;
+    position: absolute;
+    background-color: #28A19C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .button2-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.5px;
+    letter-spacing: 0.21px;
+    color: #FFFFFF;
+    text-align: center;
+  }

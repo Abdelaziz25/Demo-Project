@@ -36,7 +36,7 @@ const MostPopularCertificateSection = () => {
       <CardCertificate top={385} left={391} image={IBM}/>
       <CardCertificate top={385} left={703} image={Drive}/>
       <CardCertificate top={385} left={1014} image={IBM}/>
-      <button className="view-more-btn">
+      <button className="view2-more-btn">
         View More Certificates
       </button>
     </div>
