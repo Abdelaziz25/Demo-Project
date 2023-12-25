@@ -1,4 +1,4 @@
-import FirstPage from './Pages/FirstPage';
+ import FirstPage from './Pages/FirstPage';
 
 
 function App()
