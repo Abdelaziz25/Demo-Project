@@ -11,7 +11,7 @@ const OurClientsSection = () => {
   return (
     <div className="our-clients-section">
       <div className="section-title shared-text-styles">Our Clients</div>
-      <div className="additional-text shared-text-styles">View All</div>
+      <div className="additional-texxt shared-text-styles">View All</div>
       <img src={Apple} alt="Apple" className="image1" />
       <img src={Intel} alt="INTEL" className="image2" />
       <img src={IBM} alt="IBM" className="image3" />
