@@ -43,8 +43,10 @@
   position: absolute;
   width: 25px;
   height: 25px;
+  color: #343434;
   opacity: 0.75;
 }
+
   .section3 .icon-container {
     top: 196px;
     left: 696px;
