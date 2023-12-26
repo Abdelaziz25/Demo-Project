@@ -140,7 +140,18 @@
     left: 569px;
     position: absolute;
   }
-
+  .active {
+    background-color: white;
+  
+  }
+  
+  .additional-div.active .additional-div-text,
+  .additional1-div.active .additional-text3,
+  .additional2-div.active .additional-text5,
+  .additional3-div.active .additional-text6,
+  .additional4-div.active .additional-text7 {
+    color: #28A19C; 
+  }
   .arrow-back-icon {
     width: 15px;
     height: 25px;
@@ -168,8 +179,6 @@
     text-align: center;
     width: 148px;
     height: 24px;
-    top: 859px;
-    left: 182px;
     position: absolute;
     opacity: 0.75;
   }
@@ -184,8 +193,6 @@
     text-align: center;
     width: 148px;
     height: 24px;
-    top: 859px;
-    left: 653px;
     position: absolute;
     opacity: 0.75;
   }
@@ -200,8 +207,6 @@
     text-align: center;
     width: 148px;
     height: 24px;
-    top: 859px;
-    left: 860px;
     position: absolute;
     opacity: 0.75;
   }
@@ -215,20 +220,66 @@
     text-align: center;
     width: 148px;
     height: 24px;
-    top: 859px;
-    left: 1054px;
     position: absolute;
     opacity: 0.75;
   }
 
   .additional-div {
-    width: 138px;
+    width: 148px;
     height: 60px;
     top: 839px;
     left: 425px;
     border-radius: 10px;
     position: absolute;
-    background-color: white;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .additional1-div {
+    width: 148px;
+    height: 60px;
+    top: 839px;
+    left: 182px;
+    border-radius: 10px;
+    position: absolute;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .additional2-div {
+    width: 148px;
+    height: 60px;
+    top: 839px;
+    left: 653px;
+    border-radius: 10px;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .additional3-div {
+    width: 148px;
+    height: 60px;
+    top: 839px;
+    left: 860px;
+    border-radius: 10px;
+    position: absolute;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .additional4-div {
+    width: 148px;
+    height: 60px;
+    top: 839px;
+    left: 1054px;
+    border-radius: 10px;
+    position: absolute;
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,8 +291,9 @@
     font-size: 22px;
     line-height: 24px;
     letter-spacing: 0.73px;
-    color: #28A19C;
+    color: #343434;
     text-align: center;
+    opacity: 0.75;
   }
 
   .custom2-button {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './LearningProcess.css'; // Import the external CSS file
 import whatpp from '../images/Group 1164.png';
 import yoursecondimage from '../images/Group 1094.png';
@@ -12,6 +12,15 @@ import Rectangle67 from '../images/Path 583.png';
 import Path583 from '../images/Rectangle 67.png';
 import Rectangle78 from '../images/Rectangle 78.png';
 const LearningProcess = () => {
+    const [activeIndex, setActiveIndex] = useState(1);
+
+    const handleForwardClick = () => {
+      setActiveIndex((prevIndex) => (prevIndex + 1) % 5);
+    };
+    const handleBackwardClick = () => {
+        setActiveIndex((prevIndex) => (prevIndex - 1 + 5) % 5);
+      };
+  
   return (
     <div className="learning-process-container">
        <img
@@ -58,25 +67,29 @@ const LearningProcess = () => {
       <div className="additional-text2">
         Learn the latest skills to reach your <br/> professional goals
       </div>
-      <ArrowBackIosIcon className="arrow-back-icon" />
-      <ArrowForwardIosIcon className="arrow-front-icon" />
-      <div className="additional-text3">
-        Development
+      <ArrowBackIosIcon className="arrow-back-icon" onClick={handleBackwardClick} />
+      <ArrowForwardIosIcon className="arrow-front-icon" onClick={handleForwardClick} />
+
+      <div className={`additional1-div ${activeIndex === 0 ? 'active' : ''}`}>
+        <div className="additional-text3">Development</div>
       </div>
-      <div className="additional-div">
-        <div className="additional-div-text">
-          Design
-        </div>
+
+      <div className={`additional-div ${activeIndex === 1 ? 'active' : ''}`}>
+        <div className="additional-div-text">Design</div>
       </div>
-      <div className="additional-text5">
-      Marketing
+
+      <div className={`additional2-div ${activeIndex === 2 ? 'active' : ''}`}>
+        <div className="additional-text5">Marketing</div>
       </div>
-      <div className="additional-text6">
-      Bussiness
+
+      <div className={`additional3-div ${activeIndex === 3 ? 'active' : ''}`}>
+        <div className="additional-text6">Business</div>
       </div>
-      <div className="additional-text7">
-      Languages
+
+      <div className={`additional4-div ${activeIndex === 4 ? 'active' : ''}`}>
+        <div className="additional-text7">Languages</div>
       </div>
+    
       <Card image={Rectangle67} top={939} left={80}/>
       <Card2 image={Path583} top={939} left={391}/>
       <Card image={Rectangle78} top={939} left={703}/>
