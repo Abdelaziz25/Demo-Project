@@ -1,0 +1,41 @@
+/* AppBar.css */
+
+.app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Add padding for spacing from the edge of the screen */
+    background-color: white;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 33px;
+    /* Adjust margin for spacing between elements */
+    margin-left: 100px;
+  }
+  
+  .icon {
+    margin-right: 70px; /* Adjust margin for spacing between elements */
+    margin-top: 10px;
+  }
+  
+  .cart-icon {
+    color: #28A19C;
+    width: 24px;
+    height: 22px;
+  }
+  
+  .login-text {
+    margin-right: 50px; /* Adjust margin for spacing between elements */
+    margin-top: 5px;
+  }
+  
+  .login-label {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.5333333015441895px;
+    color: #28A19C;
+  }

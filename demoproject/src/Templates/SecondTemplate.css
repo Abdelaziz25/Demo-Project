@@ -1,0 +1,64 @@
+/* SecondTemplate.css */
+
+.second-template {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-corner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 16px;
+  }
+  
+  .top-corner-image img {
+    display: block;
+  }
+  
+  .center-container {
+    text-align: center;
+    margin-top: 10%;
+    
+  }
+  
+  .white-div {
+    width: 100%; /* Take the whole width of the screen */
+    height: 278px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+  }
+  
+  .image-wrapper {
+    text-align: center;
+    margin-right: 120px; 
+  }
+  
+  .image-wrapper img {
+    width: 137px;
+    height: 137px;
+  }
+  
+  .image-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    color: #343434;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  

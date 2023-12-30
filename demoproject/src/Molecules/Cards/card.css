@@ -1,0 +1,201 @@
+/* Card.css */
+
+.card {
+    position: relative;
+    width: 272px;
+    height: 460px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    width: 272px;
+    height: 170px;
+    object-fit: cover;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .bookmark-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .bookmark {
+    width: 34px;
+    height: 34px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  .bookmarked .bookmark {
+    background-color: white;
+  }
+  
+  .bookmarked .bookmark svg {
+    color: #28A19C;
+  }
+  
+  .card-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.38px;
+    color: #343434;
+    padding: 10px;
+  }
+
+  .rating-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .rating-value {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.5px;
+    letter-spacing: -0.34px;
+    color: #F7B52E;
+  }
+  
+  .rating-stars {
+    display: flex;
+  }
+  
+  .total-ratings {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13.75px;
+    letter-spacing: -0.26px;
+    color: #938F8C;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .instructors-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.29px;
+    color: #343434;
+    margin-left: 12px;
+  }
+
+  
+  .course-content {
+    padding: 10px;
+  }
+  
+  .course-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.37px;
+    color: #343434;
+  }
+  
+  .course-text-inner {
+     margin-bottom: 10px;
+  }
+  
+  .see-more {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.33px;
+    color: #343434;
+    cursor: pointer;
+  }
+
+  .price-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-top: 10px;
+  }
+  
+  .price {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 12px;
+    line-height: 20px;
+    letter-spacing: -0.38px;
+    color: #343434;
+  }
+  
+  .old-price {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.38px;
+    color: #343434;
+    position: relative; 
+    margin-left: 20px;
+  }
+  
+  .old-price::before {
+    content: "";
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #707070;
+    transform: translateY(-50%); /* Adjust for half of the line height */
+  }
+
+  .buttons-container {
+    display: flex;
+    align-items: center; /* Center buttons horizontally */
+    margin-top: 10px;
+  }
+  
+  .enroll-button {
+    width: 168px;
+    height: 34px;
+    border: 1px solid #28A19C;
+    background-color: white;
+    margin-bottom: 5px; 
+    border-radius: 10px;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+
+  .cart-button{
+    width: 56px;
+    height: 34px;
+    border: 1px solid #28A19C;
+    background-color: white;
+    margin-bottom: 5px; 
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .enroll-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18.75px;
+    letter-spacing: 0.14px;
+    color: #28A19C;
+  }
+  
+  .cart-icon {
+    color: #28A19C;
+  }

@@ -1,9 +1,8 @@
- import FirstPage from './Pages/FirstPage';
-
-// import MostPopularSection from "./Organisms/MostPopularSection";
+import FirstPage from "./Pages/FirstPage";
 function App()
 {
-  return   <div> <FirstPage/></div>
+  return   <div>
+         <FirstPage/>
+      </div>
 }
-
 export default App;

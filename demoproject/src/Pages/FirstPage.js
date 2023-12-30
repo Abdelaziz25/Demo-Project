@@ -1,22 +1,28 @@
 import React from 'react';
-import TopTemplate from '../Templates/TopTemplate';
-import ThirdTemplate from '../Templates/ThirdTemplate';
-import OurClientsTemplate from '../Templates/OurClientsTemplate';
-import FooterTemplate from '../Templates/FooterTemplate';
 import './FirstPage.css';
-import MostPopularTemplate from '../Templates/MostPopularTemplate';
-import MostPopularCertifacteTemplate from '../Templates/MostPopularCertifacteTemplate';
-import LearningProcessTemplate from '../Templates/LearningProcessTemplate';
+import FirstTemplate from '../Templates/FirstTemplate';
+import SecondTemplate from '../Templates/SecondTemplate';
+import ThirdTemplate from '../Templates/ThirdTemplate';
+import FourthTemplate from '../Templates/FourthTemplate';
+import FifthTemplate from "../Templates/FifthTemplate";
+import SixthTemplate from '../Templates/SixthTemplate';
+import SeventhTemplate from '../Templates/SeventhTemplate';
+import EightTemplate from '../Templates/EigthTemplate';
+import NinethTemplate from '../Templates/NinthTemplate';
 const FirstPage = () => {
     return (
       <div >
-        <TopTemplate/>
-        <LearningProcessTemplate/>
-        <ThirdTemplate/>
-        <MostPopularTemplate/>
-        <OurClientsTemplate/>
-        <MostPopularCertifacteTemplate/>
-        <FooterTemplate/>
+            <FirstTemplate/>
+            <SecondTemplate/>
+            <ThirdTemplate/>
+            <FourthTemplate/>
+            <FifthTemplate/>
+            <SixthTemplate/>
+            <SeventhTemplate/>
+            <EightTemplate/>
+            <NinethTemplate/>
+
+            
       </div>
     );
   }

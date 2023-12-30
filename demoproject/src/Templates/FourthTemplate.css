@@ -1,0 +1,42 @@
+/* FourthTemplate.css */
+
+.fourth-template {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Adjust the padding as needed for space from the edge of the screen */
+    height: 497px;
+    background-color: white;
+    margin-top: 100px;
+  }
+  
+  .Image-container {
+    width: calc(50% - 10px); /* Adjust the width and margin as needed */
+    margin-left: 50px;
+  }
+  
+  .Text-container {
+    width: calc(50% - 10px); /* Adjust the width and margin as needed */
+  }
+  
+  .Image-container img {
+    width: 488px
+   
+  }
+  
+  /* Styles for the text colors */
+.Text-container h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 1.066666603088379px;
+    text-align: left;
+  }
+  
+  .Text-container h2 .edugram-text {
+    color: #28A19C; 
+  }
+  
+  .Text-container h2 {
+    color: #FFBA00; 
+  }

@@ -1,0 +1,12 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }

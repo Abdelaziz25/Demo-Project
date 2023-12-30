@@ -1,0 +1,15 @@
+.button {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #28A19C;
+    color: white;
+    margin-right: 150px;
+  }
+  .button-text {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.5px;
+    letter-spacing: 0.21px;
+    color: #FFFFFF;
+  }

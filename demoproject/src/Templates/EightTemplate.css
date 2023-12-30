@@ -1,0 +1,105 @@
+/* EightTemplate.css */
+.custom-div {
+
+  height: 460px;
+  background-color: white;
+  margin-top: 80px;
+}
+.footer-conatiner{
+  display: flex;
+  justify-content: space-evenly; /* Adjust as needed */
+  align-items: center;
+ 
+}
+.img-footer {
+  width: 266px;
+  height: 59px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.text {
+  font-family: Quicksand;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0.8657999634742737px;
+  text-align: center;
+  color: #28A19C;
+  margin-bottom: 10px;
+  margin-right: 60px;
+}
+
+.add-margin{
+  margin-top: 20px;
+}
+.add-margin2{
+  margin-bottom: 30px;
+}
+.additional-text {
+  font-family: Quicksand;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0.8657999634742737px;
+  color: #343434;
+  margin-top: 35px;
+  margin-left: 25px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px; /* Adjusted the top margin for spacing */
+  margin-right: 10px;
+}
+
+
+.iconStyle{
+
+  width: 23.16px;
+  height: 25px;
+  color: #28A19C;
+  
+}
+
+.sub-text {
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.67px;
+  color: #343434;
+  margin-top: 10px;
+}
+
+.style-1{
+  margin-right: 10px;
+}
+
+.style-2{
+  margin-right: 35px;
+}
+
+.style-3{
+  margin-right: 80px;
+}
+
+.style-4{
+  margin-right: 50px;
+}
+.margin-left{
+  margin-left: 90px;
+}
+
+.margin-right{
+  margin-right: 100px;
+  margin-bottom: 24px;
+}

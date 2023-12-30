@@ -1,0 +1,17 @@
+/* ThirdTemplate.css */
+
+
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px; /* Adjust the margin between cards and screen edges */
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 130px;
+  }
+

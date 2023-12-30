@@ -1,0 +1,54 @@
+/* Slider.css */
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px; /* Add padding to both sides of the slider container */
+    margin-top: 50px;
+  }
+  
+  .slider-icon {
+    color: #28A19C;
+    width: 15px;
+    height: 25px;
+    margin-right: 15px; /* Increase the margin between icon and text */
+  }
+  
+  .slider-texts {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    white-space: nowrap;
+  }
+  
+  .text-wrapper {
+    background-color: transparent;
+    height: 60px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 10px; /* Add padding on both sides to create the desired spacing */
+  box-sizing: content-box; 
+  }
+  
+  .text-wrapper.selected {
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .text-wrapper.selected .slider-text {
+    color: #28A19C;
+  }
+  
+  .slider-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.7333px;
+    color: #343434;
+  }
+  

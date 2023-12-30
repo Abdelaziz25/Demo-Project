@@ -1,0 +1,20 @@
+/* CheckSentence.css */
+
+.check-sentence {
+    display: flex;
+    align-items: center;
+  }
+  
+  .check-icon {
+    margin-right: 10px; /* Adjust the margin between the icon and text */
+  }
+  
+  .check-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.6px;
+    color: #343434;
+  }
+  

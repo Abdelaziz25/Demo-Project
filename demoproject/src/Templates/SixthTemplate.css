@@ -1,0 +1,44 @@
+/* SixthTemplate.css */
+
+.sixth-template {
+    /* Add your general styles for the sixth template */
+  }
+  
+  .white-box {
+    background-color: white;
+    height: 227px;
+    padding: 20px; /* Adjust padding as needed */
+    margin-top: 70px;
+    position: relative;
+  }
+
+  .view-all-text {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    color: #28A19C;
+    font-family: 'Quicksand';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.8666666150093079px;
+    margin-top: 37px;
+    margin-right: 20px;
+  }
+  
+  .photo-container img {
+    width: 58.41px;
+    height: 69px;
+ /* Set the background color to #343434 */
+    margin-right: 8px; /* Add margin between images */
+    /* You can add additional styling properties for the images if needed */
+    margin-top: 30px;
+  }
+
+  .photo-container {
+    display: flex;
+    justify-content: space-between; /* Equal space between photos */
+    margin-top: 20px; /* Add margin between text and photos */
+  }
+  
+  
