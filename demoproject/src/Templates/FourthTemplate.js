@@ -1,4 +1,4 @@
-// FourthTemplate.js
+
 
 import React from 'react';
 import './FourthTemplate.css';
@@ -8,7 +8,7 @@ const FourthTemplate = () => {
   return (
     <div className="fourth-template">
       <div className="Image-container">
-        {/* Your image goes here */}
+    
         <img
           src={FourthSectionImage}
           alt="YourImageDescription"
@@ -17,7 +17,7 @@ const FourthTemplate = () => {
         />
       </div>
       <div className="Text-container">
-        {/* Updated text content */}
+       
         <h2>
           Benefits Of Learning <br />
           <span className="edugram-text">From Edugram</span>

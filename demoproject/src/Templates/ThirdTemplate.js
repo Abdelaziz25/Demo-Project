@@ -1,4 +1,4 @@
-// thirdTemplate.js
+
 
 import React from 'react';
 import './ThirdTemplate.css';

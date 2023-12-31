@@ -1,4 +1,4 @@
-/* FirstTemplate.css */
+
 .div{
     background-color: white;
 }
@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0; /* Remove default padding */
+    padding: 0; 
   }
   
   .left-section {
@@ -60,10 +60,10 @@
     letter-spacing: 0.43px;
     color: #343434;
     white-space: pre-line;
-    margin-top: 10px; /* Adjust the margin to control space between sections */
-    text-align: left; /* Ensure text starts from the left */
-    display: flex; /* Allow lines to align properly */
-    flex-direction: column; /* Arrange lines in a column */
+    margin-top: 10px; 
+    text-align: left; 
+    display: flex; 
+    flex-direction: column;
     margin-left: 135px;
     margin-bottom: 80px;
   }

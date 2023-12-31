@@ -1,5 +1,5 @@
 import React from 'react';
-import './card2.css'; // Make sure to create Card2.css for styling
+import './card2.css'; 
 import Google from '../../images/ibm.png'
 const Card2 = () => {
   return (

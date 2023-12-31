@@ -21,7 +21,7 @@ const Card = () => {
       </div>
     </div>
       <img
-        src={Rectangle67}// Replace with the actual image URL
+        src={Rectangle67}
         alt="Card Image2"
         className="card-image"
       />

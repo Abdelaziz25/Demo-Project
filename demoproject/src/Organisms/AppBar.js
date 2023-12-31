@@ -1,14 +1,14 @@
 import React from 'react';
-import './AppBar.css'; // Import the external CSS file
-import InputBar from '../Atoms/InputSearch'; // Assuming InputBar is in the same directory
-import Button from '../Atoms/Button'; // Assuming Button is in the same directory
+import './AppBar.css'; 
+import InputBar from '../Atoms/InputSearch'; 
+import Button from '../Atoms/Button'; 
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import Logo from '../images/Logo.png';
 const AppBar = () => {
   return (
     <div className="app-bar">
       <img
-        src={Logo} // Replace with the actual path to your image
+        src={Logo} 
         alt="Logo"
         className="logo"
       />

@@ -7,7 +7,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Card from '../Molecules/Cards/card';
 const FifthTemplate = () => {
   return (
-    <div className="fifth-template">
+    <div>
              <div className="center-container">
         <MainText>Most Popular</MainText>
         <SubText> Learn the latest skills to reach your <br/> professional goals</SubText>

@@ -1,20 +1,17 @@
-.fifth-template {
 
-    
-}
 
 .arrow-icon {
     width: 21px;
     height: 35px;
-    color: #28A19C; /* Color for the arrow icons */
-    font-size: 24px; /* Adjust the font size as needed */
+    color: #28A19C; 
+    font-size: 24px; 
   }
 
   .content-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px; 
   }
 
   .arrow-margin{

@@ -4,19 +4,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px; /* Add padding for spacing from the edge of the screen */
+    padding: 10px; 
     background-color: white;
   }
   
   .logo {
     width: 150px;
     height: 33px;
-    /* Adjust margin for spacing between elements */
     margin-left: 100px;
   }
   
   .icon {
-    margin-right: 70px; /* Adjust margin for spacing between elements */
+    margin-right: 70px; 
     margin-top: 10px;
   }
   
@@ -27,7 +26,7 @@
   }
   
   .login-text {
-    margin-right: 50px; /* Adjust margin for spacing between elements */
+    margin-right: 50px; 
     margin-top: 5px;
   }
   

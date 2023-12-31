@@ -1,5 +1,5 @@
 import React from 'react';
-import './NinthTemplate.css'; // Import the external CSS file
+import './NinthTemplate.css'; 
 
 const NinethTemplate = () => {
   return (

@@ -1,13 +1,8 @@
-/* SixthTemplate.css */
 
-.sixth-template {
-    /* Add your general styles for the sixth template */
-  }
-  
   .white-box {
     background-color: white;
     height: 227px;
-    padding: 20px; /* Adjust padding as needed */
+    padding: 20px; 
     margin-top: 70px;
     position: relative;
   }
@@ -29,16 +24,14 @@
   .photo-container img {
     width: 58.41px;
     height: 69px;
- /* Set the background color to #343434 */
-    margin-right: 8px; /* Add margin between images */
-    /* You can add additional styling properties for the images if needed */
+    margin-right: 8px; 
     margin-top: 30px;
   }
 
   .photo-container {
     display: flex;
-    justify-content: space-between; /* Equal space between photos */
-    margin-top: 20px; /* Add margin between text and photos */
+    justify-content: space-between; 
+    margin-top: 20px; 
   }
   
   

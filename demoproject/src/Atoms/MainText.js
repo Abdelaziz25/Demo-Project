@@ -1,5 +1,5 @@
 import React from 'react';
-import './MainText.css'; // Import the external CSS file
+import './MainText.css'; 
 
 const MainText = ({ children }) => {
   return <div className="golden-text main-text">{children}</div>;

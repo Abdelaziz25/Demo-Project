@@ -1,4 +1,4 @@
-/* EightTemplate.css */
+
 .custom-div {
 
   height: 460px;
@@ -7,7 +7,7 @@
 }
 .footer-conatiner{
   display: flex;
-  justify-content: space-evenly; /* Adjust as needed */
+  justify-content: space-evenly; 
   align-items: center;
  
 }
@@ -57,7 +57,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 10px; /* Adjusted the top margin for spacing */
+  margin-top: 10px;
   margin-right: 10px;
 }
 

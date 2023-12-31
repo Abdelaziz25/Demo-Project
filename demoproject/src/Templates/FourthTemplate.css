@@ -1,21 +1,21 @@
-/* FourthTemplate.css */
+
 
 .fourth-template {
     display: flex;
     justify-content: space-between;
-    padding: 20px; /* Adjust the padding as needed for space from the edge of the screen */
+    padding: 20px; 
     height: 497px;
     background-color: white;
     margin-top: 100px;
   }
   
   .Image-container {
-    width: calc(50% - 10px); /* Adjust the width and margin as needed */
+    width: calc(50% - 10px); 
     margin-left: 50px;
   }
   
   .Text-container {
-    width: calc(50% - 10px); /* Adjust the width and margin as needed */
+    width: calc(50% - 10px); 
   }
   
   .Image-container img {
@@ -23,7 +23,7 @@
    
   }
   
-  /* Styles for the text colors */
+
 .Text-container h2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 32px;

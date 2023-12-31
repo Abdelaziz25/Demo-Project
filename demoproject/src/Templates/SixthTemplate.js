@@ -1,4 +1,4 @@
-// SixthTemplate.js
+
 
 import React from 'react';
 import './SixthTemplate.css';
@@ -10,13 +10,12 @@ import Microsoft from '../images/microsoft.png';
 import Google from '../images/google.png';
 const SixthTemplate = () => {
   return (
-    <div className="sixth-template">
+    <div >
     <div className="white-box">
      
       <MainText className="MainText">Our Clients</MainText>
       <div className="view-all-text">View All</div>
       <div className="photo-container">
-          {/* Add your 5 photos here */}
           <img src={Apple} alt="Apple" />
           <img src={Intel} alt="Intel" />
           <img src={IBM} alt="IBM" />

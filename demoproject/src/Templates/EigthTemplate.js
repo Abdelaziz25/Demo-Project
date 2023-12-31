@@ -1,5 +1,5 @@
 import React from 'react';
-import './EightTemplate.css'; // Import the external CSS file
+import './EightTemplate.css'; 
 import Logo from '../images/Logo.png';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';

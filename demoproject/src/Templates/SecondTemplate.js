@@ -1,7 +1,7 @@
-// SecondTemplate.jsx
+
 
 import React from 'react';
-import './SecondTemplate.css'; // Make sure to create this CSS file
+import './SecondTemplate.css'; 
 import whatpp from '../images/Group 1164.png';
 import MainText from '../Atoms/MainText';
 import SubText from '../Atoms/SubText';
@@ -13,7 +13,7 @@ const SecondTemplate = () => {
     <div className="second-template">
       <div className="top-corner-image">
         <img
-          src={whatpp} // Replace with the actual path to your image
+          src={whatpp} 
           alt="corner-icon"
           width="56"
           height="56"
