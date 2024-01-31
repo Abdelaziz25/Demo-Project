@@ -12,11 +12,9 @@ const Slider = ({ texts }) => {
   const handleTextClick = async (text) => {
     setSelectedText(text);
     const result = await ListCourses();
-    console.log(result);
     const courseDetails = result.map(course => {
       const { classified_product: { title, description, instructors } } = course;
       const instructorNames = instructors.map(instructor => instructor.name);
-    
       return {
         title,
         description,
