@@ -3,14 +3,30 @@
 import React, { useState } from 'react';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ListCourses from '../../api';
 import './Slider.css';
 
 const Slider = ({ texts }) => {
   const [selectedText, setSelectedText] = useState(texts.length >= 2 ? texts[1] : '');
 
-  const handleTextClick = (text) => {
+  const handleTextClick = async (text) => {
     setSelectedText(text);
+    const result = await ListCourses();
+    console.log(result);
+    const courseDetails = result.map(course => {
+      const { classified_product: { title, description, instructors } } = course;
+      const instructorNames = instructors.map(instructor => instructor.name);
+    
+      return {
+        title,
+        description,
+        instructorNames,
+      };
+    });
+
+    console.log(courseDetails);
   };
+
 
   return (
     <div className="slider">
