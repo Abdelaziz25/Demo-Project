@@ -8,7 +8,7 @@ import './Slider.css';
 
 const Slider = ({ texts }) => {
   const [selectedText, setSelectedText] = useState(texts.length >= 2 ? texts[1] : '');
-
+  const [startIndex, setStartIndex] = useState(0);
   const handleTextClick = async (text) => {
     setSelectedText(text);
     const result = await ListCourses();
@@ -25,12 +25,15 @@ const Slider = ({ texts }) => {
     console.log(courseDetails);
   };
 
-
+  const handleArrowClick = (direction) => {
+    const newStartIndex = direction === 'left' ? Math.max(0, startIndex - 1) : Math.min(texts.length - 5, startIndex + 1);
+    setStartIndex(newStartIndex);
+  };
   return (
     <div className="slider">
-      <ArrowBackIosIcon className="slider-icon" />
+      <ArrowBackIosIcon className="slider-icon" onClick={() => handleArrowClick('left')} />
       <div className="slider-texts">
-        {texts.map((text, index) => (
+        {texts.slice(startIndex, startIndex + 5).map((text, index) => (
           <div
             key={index}
             className={`text-wrapper ${selectedText === text ? 'selected' : ''}`}
@@ -40,7 +43,7 @@ const Slider = ({ texts }) => {
           </div>
         ))}
       </div>
-      <ArrowForwardIosIcon className="slider-icon" />
+      <ArrowForwardIosIcon className="slider-icon" onClick={() => handleArrowClick('right')} />
     </div>
   );
 };

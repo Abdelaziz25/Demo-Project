@@ -13,6 +13,7 @@
     width: 15px;
     height: 25px;
     margin-right: 15px; 
+    cursor: pointer;
   }
   
   .slider-texts {
