@@ -24,13 +24,12 @@
   .photo-container img {
     width: 58.41px;
     height: 69px;
-    margin-right: 8px; 
     margin-top: 30px;
   }
 
   .photo-container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-around; 
     margin-top: 20px; 
   }
   
