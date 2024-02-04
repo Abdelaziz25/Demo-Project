@@ -31,10 +31,16 @@
     line-height: 23.75px;
     letter-spacing: -0.46px;
     position: absolute;
-    margin-top: 20px;
     margin-left: 12px;
   }
-  
+  .lower2-part
+  {
+    margin-top: 20px;
+  }
+  .lower3-part
+  {
+    margin-top: 45px;
+  }
   .google-text {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
