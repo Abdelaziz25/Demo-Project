@@ -14,7 +14,7 @@ const ThirdTemplate = () => {
         <MainText>Top Categories</MainText>
         <SubText> Learn the latest skills to reach your <br/> professional goals</SubText>
       </div>
-      <Slider texts={['Development', 'Design', 'Marketing', 'Business','Languages','English','Steam']} />
+      <Slider texts={['English','Steam','Math','Science','Arabic','Social Studies','Thermodynamics','Electronic Engineering']} />
       <div className="card-container">
         <Card style={{ marginTop: '20px' }} /> 
         <Card style={{ marginTop: '20px' }} />
