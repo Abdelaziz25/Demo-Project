@@ -1,11 +1,11 @@
 import React from 'react';
 import '../MostPopular/MostPopular.css';
-import MainText from '../../Atoms/MainText';
-import SubText from '../../Atoms/SubText';
+import MainText from '../../Atoms/MainText/MainText';
+import SubText from '../../Atoms/SubText/SubText';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import Card from '../../Molecules/Cards/card';
-const FifthTemplate = () => {
+import Card from '../../Molecules/Cards/LargeCard/LargeCard';
+const MostPopular = () => {
   return (
     <div>
              <div className="center-container">
@@ -23,4 +23,4 @@ const FifthTemplate = () => {
   );
 };
 
-export default FifthTemplate;
+export default MostPopular;

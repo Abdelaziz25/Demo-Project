@@ -6,7 +6,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-const EightTemplate = () => {
+const Footer = () => {
   return (
     <div className="custom-div">
       <div className='footer-conatiner'>
@@ -64,4 +64,4 @@ const EightTemplate = () => {
   );
 };
 
-export default EightTemplate;
+export default Footer;

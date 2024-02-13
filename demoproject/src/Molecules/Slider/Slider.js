@@ -10,7 +10,8 @@ const Slider = ({ texts, dispatch, handleSliderTextClick }) => {
   
   const handleTextClick = (text) => {
     setSelectedText(text);
-    dispatch(fetchCourses()); 
+    console.log(text)
+    dispatch(fetchCourses(text)); 
     if (handleSliderTextClick) {
       handleSliderTextClick(); 
     }

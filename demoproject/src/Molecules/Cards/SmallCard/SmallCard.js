@@ -1,7 +1,7 @@
 import React from 'react';
-import '../Cards/card2.css'; 
-import Google from '../../images/ibm.png'
-const Card2 = () => {
+import './SmallCard.css'; 
+import Google from '../../../images/ibm.png'
+const SmallCard = () => {
   return (
     <div className="white2-card" >
     <div className="upper-part">
@@ -20,4 +20,4 @@ const Card2 = () => {
   );
 };
 
-export default Card2;
+export default SmallCard;

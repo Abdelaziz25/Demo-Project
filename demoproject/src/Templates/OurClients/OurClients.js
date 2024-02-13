@@ -2,13 +2,13 @@
 
 import React from 'react';
 import '../OurClients/OurClients.css';
-import MainText from '../../Atoms/MainText';
+import MainText from '../../Atoms/MainText/MainText';
 import Apple from '../../images/apple.png';
 import Intel from '../../images/intel.png';
 import IBM from '../../images/ibm.png';
 import Microsoft from '../../images/microsoft.png';
 import Google from '../../images/google.png';
-const SixthTemplate = () => {
+const OurClients = () => {
   return (
     <div >
     <div className="white-box">
@@ -27,4 +27,4 @@ const SixthTemplate = () => {
   );
 };
 
-export default SixthTemplate;
+export default OurClients;

@@ -1,8 +1,8 @@
-import FirstPage from "./Pages/FirstPage";
+import LandingPage from "./Pages/LandingPage/LandingPage";
 function App()
 {
   return   <div>
-         <FirstPage/>
+         <LandingPage/>
       </div>
 }
 export default App;

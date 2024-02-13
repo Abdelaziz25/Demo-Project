@@ -3,8 +3,8 @@
 import React from 'react';
 import '../BenefitsOfLearning/BenefitsOfLearning.css';
 import FourthSectionImage from '../../images/Group 248.png'
-import CheckSentence from "../../Organisms/CheckSentence";
-const FourthTemplate = () => {
+import CheckSentence from "../../Organisms/CheckSentence/CheckSentence";
+const BenefitsOfLearning = () => {
   return (
     <div className="fourth-template">
       <div className="Image-container">
@@ -32,4 +32,4 @@ const FourthTemplate = () => {
   );
 };
 
-export default FourthTemplate;
+export default BenefitsOfLearning;

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../DesginandDeveloped/DesginandDeveloped.css'; 
 
-const NinethTemplate = () => {
+const DesginandDeveloped = () => {
   return (
     <div className="nineth-template">
       <p className="custom-text">Designed and developed at inova LLC</p>
@@ -9,4 +9,4 @@ const NinethTemplate = () => {
   );
 };
 
-export default NinethTemplate;
+export default DesginandDeveloped;

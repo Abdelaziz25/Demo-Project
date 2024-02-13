@@ -3,12 +3,12 @@
 import React from 'react';
 import '../LearningProcess/LearningProcess.css'; 
 import whatpp from '../../images/Group 1164.png';
-import MainText from '../../Atoms/MainText';
-import SubText from '../../Atoms/SubText';
+import MainText from '../../Atoms/MainText/MainText';
+import SubText from '../../Atoms/SubText/SubText';
 import yoursecondimage from '../../images/Group 1094.png';
 import yourThirdimage from '../../images/Group 1095.png';
 import yourFourthimage from '../../images/Group 1096.png';
-const SecondTemplate = () => {
+const LearningProcess = () => {
   return (
     <div className="second-template">
       <div className="top-corner-image">
@@ -43,4 +43,4 @@ const SecondTemplate = () => {
   );
 };
 
-export default SecondTemplate;
+export default LearningProcess;

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../HeroSection/HeroSection.css';
-import AppBar from '../../Organisms/AppBar';
+import AppBar from '../../Organisms/AppBar/AppBar';
 import TopSectionGirl from '../../images/Group 10448.jpg';
 import '../../style.css';
-const FirstTemplate = () => {
+const HeroSection = () => {
   return (
     <div className='div' >
       <AppBar />
@@ -35,4 +35,4 @@ const FirstTemplate = () => {
   );
 };
 
-export default FirstTemplate;
+export default HeroSection;

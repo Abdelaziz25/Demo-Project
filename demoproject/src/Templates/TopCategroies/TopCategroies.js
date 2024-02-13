@@ -1,21 +1,21 @@
-
-
 import React, { useEffect } from 'react';
 import '../TopCategroies/TopCategroies.css';
-import MainText from '../../Atoms/MainText';
-import SubText from '../../Atoms/SubText';
+import MainText from '../../Atoms/MainText/MainText';
+import SubText from '../../Atoms/SubText/SubText';
 import Slider from '../../Molecules/Slider/Slider';
-import Card from '../../Molecules/Cards/card';
-import Button from '../../Atoms/Button';
+import Card from '../../Molecules/Cards/LargeCard/LargeCard';
+import Button from '../../Atoms/Button/Button';
 import { fetchCourses } from '../../store'; // Import fetchCourses action creator
 import { useDispatch, useSelector } from 'react-redux';
-const ThirdTemplate = () => {
+const TopCategroies = () => {
   const dispatch = useDispatch();
   const courses = useSelector((state) => state.courses.courses);
   useEffect(() => {
     dispatch(fetchCourses());
   }, [dispatch]);
+  
 
+  
   const filterCourses = (courses) => {
     return courses.map(course => {
       const { classified_product: { title, description, instructors, final_rating_from_reviews } } = course;
@@ -28,11 +28,24 @@ const ThirdTemplate = () => {
       };
     });
   }
-  const handleSliderTextClick = () => {
-    // Optionally, you can dispatch additional actions related to the slider text click here
-    const filteredCourses = filterCourses(courses);
-    console.log(filteredCourses);
-  }
+  const filteredCourses = filterCourses(courses);
+  console.log(filteredCourses);
+  const renderedCourses = filteredCourses.length > 0 ? (
+    filteredCourses.map((course, index) => (
+        <Card
+            key={index}
+            title={course.title}
+            instructors={course.instructorNames}
+            description={course.description}
+            rating={course.rating}
+            style = {{marginTop: '20px'}}
+        />
+    ))
+) : (
+    Array.from({ length: 4 }).map((_, index) => (
+        <Card key={index}  style = {{marginTop: '20px'}}/>
+    ))
+);
   return (
     <div >
             <div className="center-container">
@@ -41,14 +54,11 @@ const ThirdTemplate = () => {
       </div>
       <Slider
         texts={['English','Steam','Math','Science','Arabic','Social Studies','Thermodynamics','Electronic Engineering']}
-        dispatch={dispatch} // Pass dispatch function as a prop to the Slider component
-        handleSliderTextClick={handleSliderTextClick} // Optionally pass a handler function for slider text click
+        dispatch={dispatch} 
+         
       />
       <div className="card-container">
-        <Card style={{ marginTop: '20px' }} /> 
-        <Card style={{ marginTop: '20px' }} />
-        <Card style={{ marginTop: '20px' }} />
-        <Card style={{ marginTop: '20px' }} />
+         {renderedCourses}
       </div>
       <div className="button-container">
         <Button width="314px" height="52px">
@@ -59,4 +69,4 @@ const ThirdTemplate = () => {
   );
 };
 
-export default ThirdTemplate;
+export default TopCategroies;

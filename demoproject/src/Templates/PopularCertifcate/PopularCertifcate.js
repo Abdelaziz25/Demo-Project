@@ -1,11 +1,11 @@
 import React from 'react';
 import '../PopularCertifcate/PopularCertifcate.css';
-import MainText from '../../Atoms/MainText';
-import SubText from '../../Atoms/SubText';
+import MainText from '../../Atoms/MainText/MainText';
+import SubText from '../../Atoms/SubText/SubText';
 import Slider from '../../Molecules/Slider/Slider';
-import Card2 from '../../Molecules/Cards/card2';
-import Button from '../../Atoms/Button';
-const SeventhTemplate = () => {
+import Card2 from '../../Molecules/Cards/SmallCard/SmallCard';
+import Button from '../../Atoms/Button/Button';
+const PopularCertifcate = () => {
   return (
     <div className="seventh-template">
         <div className="center-container">
@@ -29,4 +29,4 @@ const SeventhTemplate = () => {
     );
   };
   
-  export default SeventhTemplate;
+  export default PopularCertifcate;

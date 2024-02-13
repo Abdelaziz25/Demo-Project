@@ -1,9 +1,9 @@
 import React from 'react';
 import './AppBar.css'; 
-import InputBar from '../Atoms/InputSearch'; 
-import Button from '../Atoms/Button'; 
+import InputBar from '../../Atoms/InputSearch/InputSearch'; 
+import Button from '../../Atoms/Button/Button'; 
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import Logo from '../images/Logo.png';
+import Logo from '../../images/Logo.png';
 const AppBar = () => {
   return (
     <div className="app-bar">
