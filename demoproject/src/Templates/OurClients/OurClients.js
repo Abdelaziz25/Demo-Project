@@ -1,13 +1,13 @@
 
 
 import React from 'react';
-import './SixthTemplate.css';
-import MainText from '../Atoms/MainText';
-import Apple from '../images/apple.png';
-import Intel from '../images/intel.png';
-import IBM from '../images/ibm.png';
-import Microsoft from '../images/microsoft.png';
-import Google from '../images/google.png';
+import '../OurClients/OurClients.css';
+import MainText from '../../Atoms/MainText';
+import Apple from '../../images/apple.png';
+import Intel from '../../images/intel.png';
+import IBM from '../../images/ibm.png';
+import Microsoft from '../../images/microsoft.png';
+import Google from '../../images/google.png';
 const SixthTemplate = () => {
   return (
     <div >

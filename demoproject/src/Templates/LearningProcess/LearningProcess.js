@@ -1,13 +1,13 @@
 
 
 import React from 'react';
-import './SecondTemplate.css'; 
-import whatpp from '../images/Group 1164.png';
-import MainText from '../Atoms/MainText';
-import SubText from '../Atoms/SubText';
-import yoursecondimage from '../images/Group 1094.png';
-import yourThirdimage from '../images/Group 1095.png';
-import yourFourthimage from '../images/Group 1096.png';
+import '../LearningProcess/LearningProcess.css'; 
+import whatpp from '../../images/Group 1164.png';
+import MainText from '../../Atoms/MainText';
+import SubText from '../../Atoms/SubText';
+import yoursecondimage from '../../images/Group 1094.png';
+import yourThirdimage from '../../images/Group 1095.png';
+import yourFourthimage from '../../images/Group 1096.png';
 const SecondTemplate = () => {
   return (
     <div className="second-template">

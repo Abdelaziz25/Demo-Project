@@ -1,5 +1,5 @@
 import React from 'react';
-import './NinthTemplate.css'; 
+import '../DesginandDeveloped/DesginandDeveloped.css'; 
 
 const NinethTemplate = () => {
   return (

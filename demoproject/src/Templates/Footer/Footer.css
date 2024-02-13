@@ -25,7 +25,7 @@
 }
 
 .text {
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
   font-size: 26px;
   font-weight: 600;
   line-height: 37px;
@@ -43,7 +43,7 @@
   margin-bottom: 30px;
 }
 .additional-text {
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 37px;
@@ -71,7 +71,7 @@
 }
 
 .sub-text {
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 25px;

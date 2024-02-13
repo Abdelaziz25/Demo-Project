@@ -1,10 +1,10 @@
 import React from 'react';
-import './FifthTemplate.css';
-import MainText from '../Atoms/MainText';
-import SubText from '../Atoms/SubText';
+import '../MostPopular/MostPopular.css';
+import MainText from '../../Atoms/MainText';
+import SubText from '../../Atoms/SubText';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import Card from '../Molecules/Cards/card';
+import Card from '../../Molecules/Cards/card';
 const FifthTemplate = () => {
   return (
     <div>

@@ -1,6 +1,6 @@
 import React from 'react';
-import './EightTemplate.css'; 
-import Logo from '../images/Logo.png';
+import '../Footer/Footer.css'; 
+import Logo from '../../images/Logo.png';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';

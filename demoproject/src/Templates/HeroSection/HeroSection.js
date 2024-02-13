@@ -1,7 +1,8 @@
 import React from 'react';
-import './FirstTemplate.css';
-import AppBar from '../Organisms/AppBar';
-import TopSectionGirl from '../images/Group 10448.jpg';
+import '../HeroSection/HeroSection.css';
+import AppBar from '../../Organisms/AppBar';
+import TopSectionGirl from '../../images/Group 10448.jpg';
+import '../../style.css';
 const FirstTemplate = () => {
   return (
     <div className='div' >
@@ -9,10 +10,10 @@ const FirstTemplate = () => {
       <section className="content-section">
         <div className="combined-section">
       <div className="left-section">
-          <p className="main-text success-text">
-            Take The Next Step <span className="main-text sub2-text">Toward</span>
+          <p className="main-text green-text">
+            Take The Next Step <span className="main-text gold-text">Toward</span>
           </p>
-          <p className="main-text sub2-text text-subb">
+          <p className="main-text gold-text text-subb">
             Your Success
           </p>
           <p className="section-text">

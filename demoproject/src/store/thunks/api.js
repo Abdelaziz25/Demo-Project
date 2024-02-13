@@ -10,7 +10,7 @@ const fetchCourses = createAsyncThunk('courses/fetchCourses', async () => {
     params: {
       'page[number]': 1,
       'page[size]': 5,
-      'course_name': 'English',
+      'course_name': 'Thermodynamics',
     },
   });
   return response.data.data.courses;

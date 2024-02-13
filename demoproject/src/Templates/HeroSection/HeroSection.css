@@ -20,21 +20,11 @@
   }
   
   .main-text {
-    font-family: 'Quicksand';
+    font-family: "Quicksand", sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 50px;
-    letter-spacing: 1.3333332538604736px;
     margin: 0; 
-  }
-  
-  .success-text {
-    color: #28A19C;
-
-  }
-  
-  .sub2-text {
-    color: #FFBA00;
   }
   
   
@@ -49,11 +39,11 @@
   }
   
   .text-subb{
-    margin-right: 260px;
+    margin-right: 270px;
   }
 
   .section-text {
-    font-family: 'Quicksand';
+    font-family: "Quicksand", sans-serif;
     font-size: 13px;
     font-weight: 600;
     line-height: 21px;
@@ -64,6 +54,6 @@
     text-align: left; 
     display: flex; 
     flex-direction: column;
-    margin-left: 135px;
+    margin-left: 122px;
     margin-bottom: 80px;
   }

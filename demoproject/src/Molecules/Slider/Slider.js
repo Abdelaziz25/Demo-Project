@@ -1,40 +1,20 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState } from 'react';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './Slider.css';
-import { useThunk } from '../../hooks/use-thunk';
 import { fetchCourses} from '../../store';
-import { useSelector } from 'react-redux';
-const Slider = ({ texts }) => {
+const Slider = ({ texts, dispatch, handleSliderTextClick }) => {
   
   const [selectedText, setSelectedText] = useState(texts.length >= 2 ? texts[1] : '');
   const [startIndex, setStartIndex] = useState(0);
-  const [doFetchCourses, isLoadingCourses, loadingUsersError] =
-  useThunk(fetchCourses);
   
-  const courses = useSelector((state) => state.courses.courses);
-  useEffect(() => {
-    doFetchCourses();
-  }, [doFetchCourses]);
-
-
-  const filterCourses = (courses) => {
-    return courses.map(course => {
-      const { classified_product: { title, description, instructors, final_rating_from_reviews } } = course;
-      const instructorNames = instructors.map(instructor => instructor.name);
-      return {
-        title,
-        description,
-        instructorNames,
-        rating: final_rating_from_reviews ?? 0,
-      };
-    });
-  };
-
   const handleTextClick = (text) => {
     setSelectedText(text);
-    const filteredCourses = filterCourses(courses);
-    console.log(filteredCourses);
+    dispatch(fetchCourses()); 
+    if (handleSliderTextClick) {
+      handleSliderTextClick(); 
+    }
+ 
   };
   
   const handleArrowClick = (direction) => {

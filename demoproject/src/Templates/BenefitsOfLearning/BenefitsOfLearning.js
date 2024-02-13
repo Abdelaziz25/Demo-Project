@@ -1,9 +1,9 @@
 
 
 import React from 'react';
-import './FourthTemplate.css';
-import FourthSectionImage from '../images/Group 248.png'
-import CheckSentence from "../Organisms/CheckSentence";
+import '../BenefitsOfLearning/BenefitsOfLearning.css';
+import FourthSectionImage from '../../images/Group 248.png'
+import CheckSentence from "../../Organisms/CheckSentence";
 const FourthTemplate = () => {
   return (
     <div className="fourth-template">

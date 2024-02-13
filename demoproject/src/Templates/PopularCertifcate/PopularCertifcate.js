@@ -1,10 +1,10 @@
 import React from 'react';
-import './SeventhTemplate.css';
-import MainText from '../Atoms/MainText';
-import SubText from '../Atoms/SubText';
-import Slider from '../Molecules/Slider/Slider';
-import Card2 from '../Molecules/Cards/card2';
-import Button from '../Atoms/Button';
+import '../PopularCertifcate/PopularCertifcate.css';
+import MainText from '../../Atoms/MainText';
+import SubText from '../../Atoms/SubText';
+import Slider from '../../Molecules/Slider/Slider';
+import Card2 from '../../Molecules/Cards/card2';
+import Button from '../../Atoms/Button';
 const SeventhTemplate = () => {
   return (
     <div className="seventh-template">
