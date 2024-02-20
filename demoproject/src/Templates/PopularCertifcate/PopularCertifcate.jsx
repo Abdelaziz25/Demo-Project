@@ -3,7 +3,7 @@ import '../PopularCertifcate/PopularCertifcate.css';
 import MainText from '../../Atoms/MainText/MainText';
 import SubText from '../../Atoms/SubText/SubText';
 import Slider from '../../Molecules/Slider/Slider';
-import Card2 from '../../Molecules/Cards/SmallCard/SmallCard';
+import Card2 from '../../Molecules/Cards/ModifyCard/NewCard';
 import Button from '../../Atoms/Button/Button';
 const PopularCertifcate = () => {
   return (
